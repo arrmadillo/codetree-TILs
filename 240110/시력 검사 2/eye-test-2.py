@@ -3,8 +3,8 @@ import sys
 input = sys.stdin.readline
 
 def solution():
-    a = int(input())
-    if a >= 1:
+    a = float(input())
+    if a >= 1.0:
         return 'High'
     elif a >= 0.5:
         return 'Middle'
