@@ -6,7 +6,7 @@ def solution():
     temp = int(input())
     if temp < 0:
         return 'ice'
-    elif temp > 100:
+    elif temp >= 100:
         return 'vapor'
     return 'water'
 
