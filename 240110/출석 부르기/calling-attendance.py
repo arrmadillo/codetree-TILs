@@ -6,6 +6,6 @@ person = {1:'John', 2:'Tom', 3:'Paul'}
 
 def solution():
     a = int(input())
-    return person[a]
+    return 'Vacancy' if a > 3 else person[a]
 
 print(solution())
