@@ -1,6 +1,6 @@
 import sys
 
-input = sys.stdin.readline
+input = sys.stdin.readline.rstrip
 
 person = {'S':'Superior', 'A':'Excellent', 'B':'Good', 'C':'Usually', 'D':'Effort'}
 
