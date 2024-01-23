@@ -1,4 +1,4 @@
-let a = 4, b = 5;
+let a = 3, b = 5;
 [a, b] = [b, a];
 
 console.log(a);
